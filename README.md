@@ -1,12 +1,10 @@
 # Group Info
-- Group Name: [Insert Group Name]
-- Roll Number 1: [Insert Roll Number 1]
-- Roll Number 2: [Insert Roll Number 2]
-- Roll Number 3: [Insert Roll Number 3]
+- Group Number : 09
+- Roll Number 1: 22k-4489
+- Roll Number 2: 22k-4614
+- Roll Number 3: 22p-9187
 
 # Folder Structure
-
-Here is the structured overview of the lib folder along with a small explanation for each file's responsibilities:
 
 ``text
 lib/
