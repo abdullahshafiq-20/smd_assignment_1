@@ -6,28 +6,26 @@
 
 # Folder Structure
 
-``text
-lib/
-├── main.dart
-├── setup.sh
-├── controllers/
-│   └── todo_controller.dart
-├── models/
-│   ├── paginated_response.dart
-│   └── todo.dart
-├── screens/
-│   └── todo_list_screen.dart
-├── services/
-│   └── api_service.dart
-└── widgets/
-    ├── add_todo_sheet.dart
-    └── todo_card.dart
-``
+
+```
+├── 📁 controllers
+│   └── 📄 todo_controller.dart
+├── 📁 models
+│   ├── 📄 paginated_response.dart
+│   └── 📄 todo.dart
+├── 📁 screens
+│   └── 📄 todo_list_screen.dart
+├── 📁 services
+│   └── 📄 api_service.dart
+├── 📁 widgets
+│   ├── 📄 add_todo_sheet.dart
+│   └── 📄 todo_card.dart
+└── 📄 main.dart
+```
 
 ### File Explanations
 
 - **main.dart**: The entry point of the Flutter app. It configures the global professional light theme and runs the application.
-- **setup.sh**: A shell script used for initial project setup or build automations.
 - **controllers/todo_controller.dart**: State management class (ChangeNotifier) that handles all interactions (loading, adding, editing) with the API.
 - **models/paginated_response.dart**: Defines the data shape for decoding paginated wrapper objects (if applicable from the API).
 - **models/todo.dart**: The main data model for a Todo item, including JSON serialization methods and field types.
